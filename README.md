@@ -1,4 +1,4 @@
-This repository contains my submissions for Coursera [Algorithms on Strings course](https://www.coursera.org/learn/algorithms-on-strings) that is a second course in [Data Structures and Algorithms specialization](https://www.coursera.org/specializations/data-structures-algorithms).
+This repository contains my submissions for Coursera [Algorithms on Strings course](https://www.coursera.org/learn/algorithms-on-strings) that is a third course in [Data Structures and Algorithms specialization](https://www.coursera.org/specializations/data-structures-algorithms).
 
 ### Content
 
