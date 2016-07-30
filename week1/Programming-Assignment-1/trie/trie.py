@@ -12,6 +12,19 @@ import sys
 def build_trie(patterns):
     tree = dict()
     # write your code here
+    root = { }
+    tree_index = 0
+    tree[tree_index] = root
+    for pattern in patterns:
+      current_node = root
+      for index, letter in enumerate(pattern):
+        if letter in current_node:
+          current_node = tree[current_node[letter]]
+        else:
+          tree_index += 1
+          tree[tree_index] = {}
+          current_node[letter] = tree_index
+          current_node = tree[tree_index]
     return tree
 
 
